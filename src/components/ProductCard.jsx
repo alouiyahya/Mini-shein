@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { addToCart } from '../features/cart/cartslice';
+import { addToCart } from '../features/cart/cart-slice';
 import { Link } from 'react-router-dom'; 
 
 const ProductCard = ({ product }) => {
