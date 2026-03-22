@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom'; // 1. Zid Link
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addToCart } from '../features/cart/cartSlice';
+import { addToCart } from '../features/cart/cartslice';
 
 const ProductDetail = () => {
   const { id } = useParams();

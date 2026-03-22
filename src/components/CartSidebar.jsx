@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { removeItem, clearCart } from '../features/cart/cartSlice';
+import { removeItem, clearCart } from '../features/cart/cartslice';
 import { Link } from 'react-router-dom';
 
 const CartSidebar = ({ isOpen, onClose }) => {
